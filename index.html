@@ -18,13 +18,13 @@
             <h2>Informations de connexion</h2>
                 <form>
                     <label>Nom d'utilisateur</label><br>
-                        <input type:"text"><br>
+                        <input type:"text" class="formtxt"><br>
                     <label>Email</label><br>
-                        <input type:"text"><br>
+                        <input type:"text" class="formtxt"><br>
                     <label>Mot de passe</label><br>
-                        <input type:"password" required><br>
+                        <input type:"password" class="formtxt" required><br>
                     <label>Confirmer mot de passe</label><br>
-                        <input type:"password" required><br><br>
+                        <input type:"password" class="formtxt" required><br><br>
                     <input type="submit" value="Enregistrer" class="submit">
                 </form>
                 
@@ -32,62 +32,83 @@
         </section>
         <section id="profil">
             <h2>Profil professionnel</h2>
-                <h4>Niveau d'étude</h4>
                 <div id="niveau">
+                <form> 
+                <div class="left">
+                <h4>Niveau d'étude</h4>
+                    <input type="radio" value="CAP-BEP">
+                        <label>CAP-BEP</label><br>
                     <input type="radio" value="BAC">
-                    <label>CAP-BEP</label>
+                        <label>Bac</label><br>
                     <input type="radio" value="BAC+2">
-                    <label>Bac+3</label>
-                    <input type="radio" value="BAC+3">
-                    <label>Bac</label>
-                    <input type="radio" value="BAC+4">
-                    <label>Bac+5</label>
-                    <input type="radio" value="BAC+5">
-                    <label>Bac+2</label>
-                    <input type="radio" value="BAC+7">
-                    <label>Bac+7</label>
+                        <label>Bac+2</label><br>
                 </div>
-                <div id="profil">
-                <h4>Profil de développeur</h4>
+                    
+                <div class="right">
+                    <input type="radio" value="BAC+3">
+                        <label>Bac+3</label><br>
+                    <input type="radio" value="BAC+5">
+                        <label>Bac+5</label><br>
+                    <input type="radio" value="BAC+7">
+                        <label>Bac+7</label><br>
+                </div>
+                </form>
+                </div>
+                
+                <div id="profdev">
+                <form>
+                    <div class="left"> 
+                    <h4>Profil de développeur</h4>
                     <input type="radio" value="Dev Web Backend">
-                        <label>Dev Web Backend</label>
-                    <input type="radio" value="Dev Jeux Video">
-                        <label>Dev Jeux Video</label>
+                        <label>Dev Web Backend</label><br>
                     <input type="radio" value="Dev Web Frontend">
-                        <label>Dev Web Frontend</label>
-                    <input type="radio" value="Dev Logiciel">
-                        <label>Dev Logiciel</label>
+                        <label>Dev Web Frontend</label><br>
                     <input type="radio" value="Dev Web Fullstack">
-                        <label>Dev Web Fullstack</label>
+                        <label>Dev Web Fullstack</label><br>
+                    </div>
+                    
+                    <div class="right">
+                    <input type="radio" value="Dev Jeux Video">
+                        <label>Dev Jeux Videos</label><br>
+                    <input type="radio" value="Dev Web Logiciel">
+                        <label>Dev Logiciel</label><br>
                     <input type="radio" value="Dev Mobile">
-                        <label>Dev Mobile</label>
+                        <label>Dev Mobile</label><br>
+                    </div>
                     <input type="submit" value="Enregistrer" class="submit">
+                </form>
                 </div>
         </section>
         <section id="centre_interet">
             <h2>Centre d'intérêts</h2>
-                <div>
+                <form>
+                <div id="centreI">
+                    <div class="left">
                     <input type="checkbox">
-                        <label>Banque</label>
+                        <label>Banque</label><br><br>
                     <input type="checkbox">
-                        <label>Publicité</label>
+                        <label>Publicité</label><br><br>
                     <input type="checkbox">
-                        <label>Finances</label>
+                        <label>Finances</label><br><br>
                     <input type="checkbox">
-                        <label>Santé</label>
+                        <label>Santé</label><br><br>
+                    </div>
+                    <div class="right">
                     <input type="checkbox">
-                        <label>Communcation</label>
+                        <label>Communcation</label><br><br>
                     <input type="checkbox">
-                        <label>Défense</label>
+                        <label>Défense</label><br><br>
                     <input type="checkbox">
-                        <label>Education</label>
+                        <label>Education</label><br><br>
                     <input type="checkbox">
-                        <label>Politique</label>
-                    <input type="submit" value="Enregistrer" class="submit">
+                        <label>Politique</label><br><br>
+                    </div>
                 </div>
-                
+                <input type="submit" value="Enregistrer" class="submit">
+                </form> 
         </section>
         
     </main>
+    <footer>ghg</footer>
 </body>
 </html>
