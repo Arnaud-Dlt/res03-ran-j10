@@ -1,15 +1,3 @@
-/*
-bleu : #3a61ef;  
-bleu foncé : #253879;  
-bleu clair : #dfe4f7;  
-blanc cassé : #eafbf0;  
-blanc : #ffffff;  
-rouge : #d9022f;  
-vert : #1e7062;  
-noir : #0d0f0f;
-
-font-family: 'Oswald', sans-serif;
-font-family: 'Work Sans', sans-serif;*/
 * {
     margin:0;
     padding:0;
@@ -25,12 +13,12 @@ body > h1 {
     text-transform:uppercase;
     color:#253879;
     font-family: 'Oswald', sans-serif;
+    padding:20px 0 20px 0;
 }
 
 main {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    background-color:#eafbf0;
 }
 #info {
     grid-colums:1/2;
@@ -41,6 +29,7 @@ main {
     background-color:#dfe4f7;
     width:95%;
     height:30px;
+    margin:10px 0 10px 0;
 }
 
 #profil {
@@ -62,6 +51,7 @@ main {
     display:grid;
     grid-template-columns:1fr 1fr;
 }
+
 #centreI {
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -80,11 +70,13 @@ main {
     color:#ffffff;
     padding:5px 10px 5px 10px;
     margin-top:30px;
+    margin-left:20px;
     border:0px;
 }
 
 section {
     font-family: 'Work Sans', sans-serif;
+    font-size:1em;
 }
 
 section > h2 {
@@ -101,7 +93,9 @@ form {
 }
 
 footer {
-    position:fixed;
+    position: absolute;
+    bottom: 0;
     height:30px;
+    width:100vw;
     background-color:#253879;
 }
